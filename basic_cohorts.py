@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def custom_representative(tipo,date): #date not datetime
     if tipo=='7D':
